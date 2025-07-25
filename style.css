@@ -283,3 +283,41 @@ main > section {
 .content div p{
   text-decoration: underline;
 }
+
+/* Form section-------------------------------------------------------- */
+.form-section{
+  background: url(assets/news-letter-bg.png);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin-top: 100px;
+  color: #fff;
+  padding: 200px 0;
+}
+
+.join-title{
+  font-size: 3rem;
+}
+
+.form-section div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-section div input{
+  padding: 17px 70% 17px 5%;
+}
+
+.form-section div button{
+  padding: 18px 5%;
+  background-color: #E95A08;
+  border: none;
+  color: #fff;
+}
