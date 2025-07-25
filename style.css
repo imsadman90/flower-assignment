@@ -168,3 +168,61 @@ main > section {
   font-size: 18px;
   color: #333;
 }
+
+
+.plant-lover-section{
+  display: flex;
+  gap: 10%;
+  padding: 0 5%;
+  margin-top: 150px;
+}
+
+.plant-lover-image{
+  position: relative;
+}
+
+.description-container{
+  display: flex;
+
+}
+.plant-lover-description{
+  display: flex;
+  color: #727272;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.plant-lover-title{
+  color: black;
+  font-weight: 600;
+  list-style: none;
+  font-size: 3rem;
+ 
+
+}
+
+.badge{
+  position: absolute;
+  width: 40%;
+  top: -15%;
+  right: -19%;
+}
+
+
+
+.action-right {
+  width: 540px;
+  height: 521px;
+}
+
+.action-right h3 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.action-right li {
+  font-size: 20px;
+  color: #808080;
+}
