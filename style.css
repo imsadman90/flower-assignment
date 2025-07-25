@@ -321,3 +321,178 @@ main > section {
   border: none;
   color: #fff;
 }
+/* Footer section */
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 0 5%;
+  margin-top: 100px;
+  border-top: 1px solid #72727273;
+  padding-top: 50px;
+  gap: 5%;
+}
+
+.footer-img{
+display: flex;
+justify-content: flex-start;
+height: 20%;
+}
+.footer-img div{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-lists{
+  list-style: none;
+  display: grid;
+  gap: 10px;
+  color: #333;
+}
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  /* ========== NAVBAR ========== */
+  .nav-list {
+    display: none !important;
+  }
+
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-right {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .cart {
+    margin-left: auto;
+  }
+
+  /* ========== BANNER SECTION ========== */
+  .banner {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .banner-description {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .banner img.banner-image {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ========== PLANTS SECTION ========== */
+  .flower-collection {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 5%;
+    place-items: center;
+  }
+
+  .collection-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .collection-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn-primary {
+    width: 100%;
+  }
+
+  /* ========== PLANT LOVER SECTION ========== */
+  .plant-lover-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 5%;
+    gap: 40px;
+  }
+
+  .plant-lover-image {
+    text-align: center;
+  }
+
+  .description-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .plant-lover-title {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .plant-lover-description {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  /* ========== JOIN / FORM SECTION ========== */
+  .form-section {
+    padding: 100px 20px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  .form-section div {
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .form-section div input,
+  .form-section div button {
+    width: 100%;
+    padding: 15px;
+  }
+
+  
+
+  /* ========== LATEST DEAL SECTION ========== */
+  .latest-deal-image {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 5%;
+  }
+
+
+  .bloom-container {
+    display: block;
+  }
+
+
+  /* footer section */
+
+.footer{
+  grid-template-columns: repeat(1,1fr);
+
+}
+
+}
