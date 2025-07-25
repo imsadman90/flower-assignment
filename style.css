@@ -247,6 +247,11 @@ main > section {
   gap: 1%;
   padding: 0 5%;
 }
+.latest-description{
+  color: #333;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
 
 .zabo-container{
   grid-row: span 2;
@@ -314,7 +319,7 @@ main > section {
 }
 
 .form-section div input{
-  padding: 17px 70% 17px 5%;
+  padding: 17px 500px 17px 3%;
 }
 
 .form-section div button{
