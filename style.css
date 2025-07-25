@@ -89,3 +89,23 @@ main > section {
   list-style: none;
   margin-right: 30px;
 }
+
+/*  Banner Styles */
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.banner-title {
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.banner-description {
+  font-size: 22px;
+  margin-top: 1rem;
+  color: #424242;
+}
