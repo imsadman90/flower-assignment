@@ -109,3 +109,62 @@ main > section {
   margin-top: 1rem;
   color: #424242;
 }
+
+/* Collection Section */
+.flower-collection {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 5%;
+}
+
+.flower-title {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  color: #181818;
+  margin-bottom: 5px;
+}
+
+.another-title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: #727272;
+}
+
+.btn-primary {
+  width: 270px;
+  height: 50px;
+  font-weight: 600;
+  background-color: #E95A08;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #e85a5a;
+}
+
+.collection-container {
+  width: 100%;
+  max-width: 270px;
+  height: auto;
+  border: none;
+  background-color: #fff;
+}
+
+.collection-container img {
+  width: 100%;
+  height: auto;
+}
+
+.lily {
+  font-size: 22px;
+}
+
+.price {
+  font-size: 18px;
+  color: #333;
+}
